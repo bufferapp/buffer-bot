@@ -1,1 +1,12 @@
-["shipit.coffee", "ackbar.coffee", "hello.coffee", "helpscout.coffee", "time.coffee", "sendgrid.coffee", "remind.coffee", "gif-me.coffee", "advice.coffee"]
+["shipit.coffee",
+ "ackbar.coffee",
+ "hello.coffee",
+ "helpscout.coffee",
+ "time.coffee",
+ "sendgrid.coffee",
+ "remind.coffee",
+ "gif-me.coffee",
+ "advice.coffee",
+ "aws.coffee",
+"deploy.coffee"
+]
