@@ -22,7 +22,8 @@
   "dependencies": {
     "hubot": ">= 2.5.1",
     "hubot-scripts": ">= 2.4.2",
-    "hubot-hipchat": "~2.5.1-4"
+    "hubot-hipchat": "~2.5.1-4",
+    "wolfram": "0.2.2"
   },
   "engines": {
     "node": ">= 0.8.x",
