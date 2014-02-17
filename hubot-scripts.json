@@ -9,7 +9,8 @@
  "advice.coffee",
  "aws.coffee",
 "deploy.coffee",
-"hipchat-api.coffee"
+"hipchat-api.coffee",
+"jenkins.coffee"
 ]
 
 
