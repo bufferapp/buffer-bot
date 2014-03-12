@@ -8,8 +8,8 @@
  "gif-me.coffee",
  "advice.coffee",
  "aws.coffee",
-"deploy.coffee",
-"hipchat-api.coffee"
+ "deploy.coffee",
+ "hipchat-api.coffee"
 ]
 
 
