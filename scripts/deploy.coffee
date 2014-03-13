@@ -11,15 +11,15 @@ jenkinsBuildJobName  = process.env.HUBOT_CIBOT_BUILD_JOB_NAME
 
 module.exports = (robot) ->
   robot.respond /deploy( me)?\s*(.+)?/i, (msg) ->
-    msg.send "start"
     target     = msg.match[2] or null
-    msg.send "#{target}"
     if !target
       #description = "Requested by #{msg.message.user.name} in #{msg.message.user.room}"
       msg.send "I'm sorry. You need to provide an elastic beanstalk Buffer target"
     else
-      msg.send "Great, deploying master to #{target}"
       jobUrl = "#{jenkinsURL}/buildByToken/buildWithParameters?job=#{jenkinsBuildJobName}&token=#{jenkinsToken}&Target=#{target}"
       msg.http(jobUrl)
         .get() (err, res, body) ->
-          msg.send body
+          if body.length > 2000
+            msg.send "Whoops, I can't deploy to #{target}"
+          else
+            msg.send "Great, deploying master to #{target}"
