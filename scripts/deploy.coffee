@@ -17,7 +17,7 @@ startBuild = (msg, target, branch = "master") ->
       msg.send  "Branch: #{branch}"
       msg.send  "Target: #{target}"
 
-      jobUrl = "#{jenkinsURL}/buildByToken/buildWithParameters?job=#{jenkinsBuildJobName}&token=#{jenkinsToken}&Target=#{target}"
+      jobUrl = "#{jenkinsURL}/buildByToken/buildWithParameters?job=#{jenkinsBuildJobName}&token=#{jenkinsToken}&Target=#{target}&Branch=#{branch}"
       msg.http(jobUrl)
         .get() (err, res, body) ->
           if body.length > 2000
