@@ -1,7 +1,6 @@
 ["shipit.coffee",
  "ackbar.coffee",
  "hello.coffee",
- "helpscout.coffee",
  "time.coffee",
  "sendgrid.coffee",
  "remind.coffee",
