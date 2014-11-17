@@ -151,7 +151,7 @@ Please check out the [deploying hubot onto UNIX][deploy-unix] and
 ## Campfire Variables
 
 If you are using the Campfire adapter you will need to set some environment
-variables. Refer to the documentation for other adapters and the configuraiton
+variables. Refer to the documentation for other adapters and the configuration
 of those, links to the adapters can be found on the [hubot wiki][hubot-wiki].
 
 Create a separate Campfire user for your bot and get their token from the web

@@ -2,7 +2,7 @@
 #  Kick of a jenkins deploy build 
 #
 # Commands:
-#   hubot deploy <target> - Deploy master to the given envirnonment
+#   hubot deploy <target> - Deploy master to the given environment
 #
 
 jenkinsURL           = process.env.HUBOT_CIBOT_URL
