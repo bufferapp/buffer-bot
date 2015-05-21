@@ -28,7 +28,7 @@ startBuild = (msg, target, branch = "master") ->
 
 module.exports = (robot) ->
   
-  robot.respond /deploy\s*([a-zA-Z0-9-_/']+\s)(to\s+)?(.+)/i, (msg) ->
+  robot.respond /deploy\s*([a-zA-Z0-9-_\/'\.]+\s)(to\s+)?(.+)/i, (msg) ->
     branch     = msg.match[1] or null
     target     = msg.match[3] or null
     branch     = branch.replace /^\s+|\s+$/g, ""
