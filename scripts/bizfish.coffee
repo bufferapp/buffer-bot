@@ -29,6 +29,6 @@ bizfishes = [
 
 module.exports = (robot) ->
 	robot.respond /bizfish me/i, (msg) ->
-		bizfish = bizfishes[ Math.floor(Math.random()*20) ]
+		bizfish = bizfishes[ Math.floor(Math.random()*bizfishes.length) ]
 		msg.send bizfish
 
