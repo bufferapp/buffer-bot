@@ -26,6 +26,6 @@
     "hubot-google-hangouts": "0.7.1"
   },
   "engines": {
-    "node": "~0.8.x"
+    "node": "~0.10.x"
   }
 }
