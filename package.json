@@ -1,14 +1,14 @@
 {
-  "name": "hosted-hubot",
-  "version": "2.5.1",
-  "author": "GitHub Inc.",
+  "name": "Bufferbot",
+  "version": "1.0.0",
+  "author": "Buffer",
   "keywords": [
     "github",
     "hubot",
     "campfire",
     "bot"
   ],
-  "description": "A simple helpful robot for your Company",
+  "description": "The Buffer HipChat robot",
   "licenses": [
     {
       "type": "MIT",
