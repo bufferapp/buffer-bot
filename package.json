@@ -1,6 +1,6 @@
 {
   "name": "Bufferbot",
-  "version": "1.0.0",
+  "version": "2.5.1",
   "author": "Buffer",
   "keywords": [
     "github",
@@ -8,7 +8,7 @@
     "campfire",
     "bot"
   ],
-  "description": "The Buffer HipChat robot",
+  "description": "The Buffer HipChat robot - Clone of hubot",
   "licenses": [
     {
       "type": "MIT",
@@ -21,11 +21,10 @@
   },
   "dependencies": {
     "hubot-scripts": "2.4.2",
-    "hubot-hipchat": "~2.5.x",
+    "hubot-hipchat": "2.5.1-5",
     "hubot-google-hangouts": "0.7.1"
   },
   "engines": {
-    "node": "~0.10.x",
-    "npm": "~2.13.x"
+    "node": "~0.10.x"
   }
 }
