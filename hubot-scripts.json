@@ -1,12 +1,10 @@
-["shipit.coffee",
- "ackbar.coffee",
- "time.coffee",
- "sendgrid.coffee",
- "remind.coffee",
- "gif-me.coffee",
- "aws.coffee",
- "deploy.coffee",
- "hipchat-api.coffee"
+[
+  "shipit.coffee",
+  "ackbar.coffee",
+  "time.coffee",
+  "sendgrid.coffee",
+  "remind.coffee",
+  "gif-me.coffee",
+  "deploy.coffee",
+  "hipchat-api.coffee"
 ]
-
-
